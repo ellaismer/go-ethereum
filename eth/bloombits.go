@@ -19,13 +19,13 @@ package eth
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ellaism-io/go-ethereum/common"
+	"github.com/ellaism-io/go-ethereum/common/bitutil"
+	"github.com/ellaism-io/go-ethereum/core"
+	"github.com/ellaism-io/go-ethereum/core/bloombits"
+	"github.com/ellaism-io/go-ethereum/core/types"
+	"github.com/ellaism-io/go-ethereum/ethdb"
+	"github.com/ellaism-io/go-ethereum/params"
 )
 
 const (
