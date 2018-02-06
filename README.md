@@ -1,3 +1,13 @@
+## Go Ellaism [dev]
+
+ELLAISM DEV NOTES
+
+This code will not work until configuration settings are complete please do not use until this message is removed 6 Feb 2018
+Specifically working to port the settings for Ellaism located at https://github.com/ellaism/go-ellaism/blob/master/core/config/mainnet.json
+
+END ELLAISM DEV NOTES
+
+
 ## Go Ethereum
 
 Official golang implementation of the Ethereum protocol.
@@ -96,7 +106,7 @@ Specifying the `--testnet` flag however will reconfigure your Geth instance a bi
    `geth attach <datadir>/testnet/geth.ipc`. Windows users are not affected by this.
  * Instead of connecting the main Ethereum network, the client will connect to the test network,
    which uses different P2P bootnodes, different network IDs and genesis states.
-   
+
 *Note: Although there are some internal protective measures to prevent transactions from crossing
 over between the main network and test network, you should make sure to always use separate accounts
 for play-money and real-money. Unless you manually move accounts, Geth will by default correctly
