@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ellaism-io/go-ethereum/common"
-	"github.com/ellaism-io/go-ethereum/core/types"
+	"./common"
+	"./core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.
